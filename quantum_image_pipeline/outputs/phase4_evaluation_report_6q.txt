@@ -1,0 +1,13 @@
+VQC Classifier Performance Report
+=================================
+Configuration: 6 Qubits, 3 Layers, nearest Entanglement
+Test Accuracy: 30.66%
+Test Precision: 24.34%
+Test Recall: 26.27%
+Test F1-Score: 21.11%
+
+Confusion Matrix:
+[[231  30 121  42]
+ [196  34 142  42]
+ [  2  16   9  14]
+ [  7  24   4   9]]

@@ -1,0 +1,26 @@
+Phase 1 — Preprocessing Report
+=============================================
+
+Dataset source   : c:\Users\Dhanika Bhat\Downloads\19470052\DeepSpaceYoloDatasetV2\DeepSpaceYoloDatasetV2
+Image size       : (64, 64)
+Total samples    : 6147
+Train (pre-SMOTE): 4302
+Train (post-SMOTE): 7908
+Val              : 922
+Test             : 923
+
+Class distribution (train set):
+  Class                   Before   After   Ratio
+  ---------------------------------------------
+  [0] galaxy               1977    1977   1.00x
+  [1] nebula               1927    1977   1.03x
+  [2] globular_cluster      193    1977   10.24x
+  [3] star_cluster          205    1977   9.64x
+
+Augmentations applied (on original samples, before SMOTE):
+  Rotation ±15°
+  Horizontal flip
+  Vertical flip
+  Brightness jitter (0.8, 1.2)
+
+SMOTE k_neighbors used: 5
